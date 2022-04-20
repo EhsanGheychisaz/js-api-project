@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Tourney:wght@200&display=swap");
+body {
+  margin: 0;
+  padding: 0%;
+}
+.contianer__head {
+  background: rgb(91, 91, 92);
+  background: linear-gradient(
+    90deg,
+    rgba(91, 91, 92, 1) 0%,
+    rgba(131, 153, 163, 1) 35%
+  );
+  color: snow;
+  height: 40%;
+  font-weight: 700;
+  font-size: 250%;
+  text-align: center;
+}
+body {
+  background: rgb(250, 250, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(250, 250, 255, 1) 67%,
+    rgba(240, 250, 255, 1) 100%
+  );
+}
+.contianer__main-list form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.contianer__main-list {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+}
+.contianer__main-list label {
+  align-self: flex-start;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+.contianer__main-list input {
+  background-color: #a7b5b6;
+  height: 3rem;
+  width: 20rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.contianer__main-list button {
+  background-color: rgb(36, 235, 36);
+  margin-top: 2rem;
+  width: 7rem;
+  height: 3rem;
+  border: none;
+  border-radius: 17% 17%;
+  transition: 1s;
+}
+.contianer__main-list button:hover {
+  transform: rotateY(360deg);
+}
+table {
+  position: absolute;
+  right: 8%;
+  top: 20%;
+  border-spacing: 0rem;
+  border-radius: 2rem 2rem;
+  width: 55%;
+  padding: 1.5rem;
+  background-color: rgba(131, 153, 163);
+}
+table th {
+  background: #a7b5b6;
+  width: 20%;
+  padding: 1rem;
+}
+table td:nth-child(1),
+table td:nth-child(2),
+table td:nth-child(3),
+table td:nth-child(4) {
+  text-align: center;
+  padding: 0.7rem;
+  color: snow;
+  font-size: medium;
+}
+table td:nth-child(5),
+table td:nth-child(6) {
+  padding-top: 0.7rem;
+}
+#btn--Edit {
+  background: blue;
+  width: 5rem;
+  height: 2.5rem;
+  float: right;
+  border: none;
+  transition: 0.5s;
+  border-radius: 20% 20% 20% 20%;
+}
+#btn--Edit:hover {
+  background-color: rgba(0, 0, 255, 0.884);
+  transform: translateX(-1rem);
+}
+#btn--Delete {
+  background: rgb(255, 0, 0);
+  width: 100%;
+  height: 2.5rem;
+  border: none;
+  border-radius: 10% 10% 10% 10%;
+  transition: 0.5s;
+}
+#btn--Delete:hover {
+  transform: translateX(1rem);
+  background-color: rgba(255, 0, 0, 0.774);
+}
+table caption {
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
